@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi FTP Server">
+  <defs>
+    <linearGradient id="ftpbgg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="rack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ftpbgg)"/>
+  <g stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="280" y="150" width="240" height="320" rx="16" fill="url(#rack)"/>
+    <line x1="280" y1="220" x2="520" y2="220"/>
+    <line x1="280" y1="290" x2="520" y2="290"/>
+    <line x1="280" y1="360" x2="520" y2="360"/>
+    <line x1="280" y1="430" x2="520" y2="430"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="310" cy="185" r="7"/>
+    <circle cx="310" cy="255" r="7"/>
+    <circle cx="310" cy="325" r="7"/>
+    <circle cx="310" cy="395" r="7"/>
+    <circle cx="310" cy="450" r="7"/>
+  </g>
+  <g fill="#65d0f4">
+    <rect x="340" y="178" width="120" height="14" rx="7"/>
+    <rect x="340" y="248" width="90" height="14" rx="7"/>
+    <rect x="340" y="318" width="140" height="14" rx="7"/>
+    <rect x="340" y="388" width="100" height="14" rx="7"/>
+  </g>
+  <g transform="translate(120 250)" fill="none" stroke="#f2f7a0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 40h70l20 20h70V0H0z" fill="#f2f7a0" opacity="0.15"/>
+    <path d="M0 40h70l20 20h70V0H0z"/>
+    <path d="M20 0v-25h70v25" opacity="0.7"/>
+  </g>
+  <g stroke="#38bdf8" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 300h50"/>
+    <path d="M245 285l15 15-15 15"/>
+  </g>
+  <g stroke="#65d0f4" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M540 300h50"/>
+    <path d="M575 285l15 15-15 15"/>
+  </g>
+  <text x="400" y="110" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">FTP Server</text>
+  <text x="400" y="545" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">File Transfer Protocol</text>
+  <text x="155" y="215" fill="#f2f7a0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle">File Client</text>
+  <text x="645" y="215" fill="#65d0f4" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Storage</text>
+</svg>

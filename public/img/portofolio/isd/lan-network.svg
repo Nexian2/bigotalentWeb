@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Diagram Jaringan LAN">
+  <defs>
+    <linearGradient id="lanbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#lanbg)"/>
+  <g stroke="#38bdf8" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="400" y1="300" x2="400" y2="180"/>
+    <line x1="400" y1="180" x2="180" y2="180"/>
+    <line x1="180" y1="180" x2="180" y2="120"/>
+    <line x1="400" y1="180" x2="620" y2="180"/>
+    <line x1="620" y1="180" x2="620" y2="120"/>
+    <line x1="400" y1="300" x2="180" y2="300"/>
+    <line x1="400" y1="300" x2="620" y2="300"/>
+    <line x1="400" y1="300" x2="620" y2="300"/>
+    <line x1="180" y1="300" x2="180" y2="440"/>
+    <line x1="400" y1="300" x2="400" y2="440"/>
+    <line x1="620" y1="300" x2="620" y2="440"/>
+  </g>
+  <g fill="#1e293b" stroke="#65d0f4" stroke-width="4">
+    <rect x="330" y="250" width="140" height="90" rx="12"/>
+    <rect x="120" y="90" width="120" height="70" rx="10"/>
+    <rect x="560" y="90" width="120" height="70" rx="10"/>
+    <rect x="120" y="440" width="120" height="80" rx="10"/>
+    <rect x="340" y="440" width="120" height="80" rx="10"/>
+    <rect x="560" y="440" width="120" height="80" rx="10"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="360" cy="280" r="6"/>
+    <circle cx="360" cy="305" r="6"/>
+    <circle cx="360" cy="330" r="6"/>
+  </g>
+  <g fill="#f2f7a0" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle">
+    <text x="180" y="132">Router</text>
+    <text x="620" y="132">Access Point</text>
+    <text x="180" y="487">PC Klien</text>
+    <text x="400" y="487">Server</text>
+    <text x="620" y="487">Printer</text>
+  </g>
+  <text x="400" y="298" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Switch</text>
+  <text x="400" y="60" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Jaringan LAN</text>
+  <text x="400" y="570" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">Local Area Network</text>
+</svg>
